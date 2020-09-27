@@ -13,7 +13,7 @@ Proposta para uma cidade urbana onde há uma diversidade imensa de parques de es
 - [Git](https://git-scm.com/)
 
 # Instalação
-1. Criar uma base de dados no PostgreSQL, usando a linha de comandos ou um GUI (PgAdmin, DBeaver...).
+1. Criar uma base de dados no PostgreSQL, usando a linha de comandos ou um GUI (pgAdmin, DBeaver...).
 2. Alterar o role "[postgres]" do ficheiro de backup [database.sql](database.sql) para o role usado na base de dados criada no ponto anterior.
 3. Importar o ficheiro de backup da base de dados [database.sql](database.sql) para a base de dados criada no ponto 1.
 4. Abrir o programa em java num IDE (Netbeans ou Eclipse).
