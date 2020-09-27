@@ -16,7 +16,7 @@ import java.sql.SQLException;
  */
 public class Conexao {
     
-    private final String url = "jdbc:postgresql://estga-dev.clients.ua.pt:5432/ptda-2018-gr4";
+    private final String url = "jdbc:postgresql://host:port/database";
     private final String user = "[username]";
     private final String password = "[password]";
     
