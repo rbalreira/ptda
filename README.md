@@ -17,7 +17,7 @@ Proposta para uma cidade urbana onde há uma diversidade imensa de parques de es
 2. Alterar o role "[postgres]" do ficheiro de backup [database.sql](database.sql) para o role usado na base de dados criada no ponto anterior.
 3. Importar o ficheiro de backup da base de dados [database.sql](database.sql) para a base de dados criada no ponto 1.
 4. Abrir o programa em java num IDE ([Netbeans](https://netbeans.org/) ou [Eclipse](https://www.eclipse.org/)).
-5. Alterar as credenciais de acesso do ficheiro de conexão [Conexao.java](app/src/connection/Conexao.java) que faz conexão à base de dados.
+5. Alterar as credenciais de acesso do ficheiro [Conexao.java](app/src/connection/Conexao.java) que faz conexão à base de dados.
 6. Executar o programa.
 
 # Documentação
