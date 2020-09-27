@@ -17,8 +17,8 @@ import java.sql.SQLException;
 public class Conexao {
     
     private final String url = "jdbc:postgresql://host:port/database";
-    private final String user = "[username]";
-    private final String password = "[password]";
+    private final String user = "username";
+    private final String password = "password";
     
     /**
      * método do tipo Connection que verifica se obteve ligação com o PostgreSQL
