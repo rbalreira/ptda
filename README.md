@@ -13,7 +13,12 @@ Proposta para uma cidade urbana onde há uma diversidade imensa de parques de es
 - [Git](https://git-scm.com/)
 
 # Instalação
-- Importar o projeto [PTRC.gns3](app/PTRC.gns3) no GNS3.
+1. Criar uma base de dados no PostgreSQL, usando a linha de comandos ou um GUI (PgAdmin, DBeaver...).
+2. Alterar o role "[postgres]" do ficheiro de backup [database.sql](database.sql) para o role usado na base de dados criada no ponto anterior.
+3. Importar o ficheiro de backup da base de dados [database.sql](database.sql) para a base de dados criada no ponto 1.
+4. Abrir o programa em java num IDE (Netbeans ou Eclipse).
+5. Alterar as credenciais de acesso do ficheiro de conexão [Conexao.java](app/src/connection/Conexao.java).
+6. Executar o programa.
 
 # Documentação
 - [Relatório](report.pdf)
