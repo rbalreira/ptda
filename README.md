@@ -22,6 +22,7 @@ Proposta para uma cidade urbana onde há uma diversidade imensa de parques de es
 
 # Documentação
 - [Relatório](report.pdf)
+- [Enunciado](outline.pdf)
 
 # Autores
 - Daniel Martins
